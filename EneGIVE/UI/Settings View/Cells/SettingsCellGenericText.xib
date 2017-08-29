@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="iwQ-7e-75U" customClass="SettingsCellGenericText" customModule="EneGIVE" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iwQ-7e-75U" id="sGX-AM-R7b">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Generic Text Cell" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyV-Yi-T1d">
+                        <rect key="frame" x="16" y="11" width="130" height="20.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m4y-T4-9rL">
+                        <rect key="frame" x="8" y="42.5" width="359" height="1"/>
+                        <color key="backgroundColor" red="0.50588235290000005" green="0.99607843139999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="XdK-5g-ytU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m4y-T4-9rL" firstAttribute="centerX" secondItem="sGX-AM-R7b" secondAttribute="centerX" id="6sg-iG-hwj"/>
+                    <constraint firstAttribute="bottom" secondItem="m4y-T4-9rL" secondAttribute="bottom" id="GrT-aF-rQh"/>
+                    <constraint firstItem="m4y-T4-9rL" firstAttribute="top" secondItem="AyV-Yi-T1d" secondAttribute="bottom" constant="11" id="IpO-Sl-CaG"/>
+                    <constraint firstItem="AyV-Yi-T1d" firstAttribute="leading" secondItem="sGX-AM-R7b" secondAttribute="leadingMargin" multiplier="2" id="nWb-l8-EF2"/>
+                    <constraint firstItem="m4y-T4-9rL" firstAttribute="leading" secondItem="sGX-AM-R7b" secondAttribute="leadingMargin" id="pCF-H5-SwG"/>
+                    <constraint firstItem="AyV-Yi-T1d" firstAttribute="top" secondItem="sGX-AM-R7b" secondAttribute="top" constant="11" id="ul1-9b-0gU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="AyV-Yi-T1d" id="uXn-hW-rAH"/>
+            </connections>
+            <point key="canvasLocation" x="37.5" y="190"/>
+        </tableViewCell>
+    </objects>
+</document>

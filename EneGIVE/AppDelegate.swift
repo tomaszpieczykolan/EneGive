@@ -1,5 +1,5 @@
 //
-//  EneGIVE - AppDelegate
+//  EneGIVE - AppDelegate.swift
 //  Copyright © 2017 Tomasz Pieczykolan. All rights reserved.
 //
 

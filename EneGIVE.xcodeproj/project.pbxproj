@@ -7,14 +7,130 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB1EBC01F54B1640090EBA8 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBBB1F54B1640090EBA8 /* CollectionExtensions.swift */; };
+		2DB1EBC11F54B1640090EBA8 /* DecimalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBBC1F54B1640090EBA8 /* DecimalExtensions.swift */; };
+		2DB1EBC21F54B1640090EBA8 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBBD1F54B1640090EBA8 /* StringExtensions.swift */; };
+		2DB1EBC31F54B1640090EBA8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBBE1F54B1640090EBA8 /* UIColorExtension.swift */; };
+		2DB1EBC41F54B1640090EBA8 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBBF1F54B1640090EBA8 /* UIViewControllerExtensions.swift */; };
+		2DB1EBCD1F54B1A20090EBA8 /* EGChargepoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBC71F54B1A20090EBA8 /* EGChargepoint.swift */; };
+		2DB1EBCE1F54B1A20090EBA8 /* EGConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBC81F54B1A20090EBA8 /* EGConnector.swift */; };
+		2DB1EBCF1F54B1A20090EBA8 /* EGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBC91F54B1A20090EBA8 /* EGLocation.swift */; };
+		2DB1EBD01F54B1A20090EBA8 /* EGModelValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBCA1F54B1A20090EBA8 /* EGModelValidation.swift */; };
+		2DB1EBD11F54B1A20090EBA8 /* EGTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBCB1F54B1A20090EBA8 /* EGTransaction.swift */; };
+		2DB1EBD21F54B1A20090EBA8 /* EGUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBCC1F54B1A20090EBA8 /* EGUserData.swift */; };
+		2DB1EBD41F54B1B80090EBA8 /* DTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBD31F54B1B80090EBA8 /* DTButton.swift */; };
+		2DB1EC0E1F54B2260090EBA8 /* AccountView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBD61F54B2260090EBA8 /* AccountView.xib */; };
+		2DB1EC0F1F54B2260090EBA8 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBD71F54B2260090EBA8 /* AccountViewController.swift */; };
+		2DB1EC101F54B2260090EBA8 /* EGTransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBD91F54B2260090EBA8 /* EGTransactionCell.swift */; };
+		2DB1EC111F54B2260090EBA8 /* EGTransactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBDA1F54B2260090EBA8 /* EGTransactionCell.xib */; };
+		2DB1EC121F54B2260090EBA8 /* EGConnectorPickerChargePointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBDC1F54B2260090EBA8 /* EGConnectorPickerChargePointCell.swift */; };
+		2DB1EC131F54B2260090EBA8 /* EGConnectorPickerChargePointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBDD1F54B2260090EBA8 /* EGConnectorPickerChargePointCell.xib */; };
+		2DB1EC141F54B2260090EBA8 /* EGConnectorPickerConnectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBDE1F54B2260090EBA8 /* EGConnectorPickerConnectorCell.swift */; };
+		2DB1EC151F54B2260090EBA8 /* EGConnectorPickerConnectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBDF1F54B2260090EBA8 /* EGConnectorPickerConnectorCell.xib */; };
+		2DB1EC161F54B2260090EBA8 /* EGConnectorPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE01F54B2260090EBA8 /* EGConnectorPickerView.xib */; };
+		2DB1EC171F54B2260090EBA8 /* EGConnectorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE11F54B2260090EBA8 /* EGConnectorPickerViewController.swift */; };
+		2DB1EC181F54B2260090EBA8 /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE31F54B2260090EBA8 /* HelpView.xib */; };
+		2DB1EC191F54B2260090EBA8 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE41F54B2260090EBA8 /* HelpViewController.swift */; };
+		2DB1EC1A1F54B2260090EBA8 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE61F54B2260090EBA8 /* LoginView.xib */; };
+		2DB1EC1B1F54B2260090EBA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE71F54B2260090EBA8 /* LoginViewController.swift */; };
+		2DB1EC1C1F54B2260090EBA8 /* LoginViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBE81F54B2260090EBA8 /* LoginViewControllerDelegate.swift */; };
+		2DB1EC1D1F54B2260090EBA8 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBEA1F54B2260090EBA8 /* MainView.xib */; };
+		2DB1EC1E1F54B2260090EBA8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBEB1F54B2260090EBA8 /* MainViewController.swift */; };
+		2DB1EC1F1F54B2260090EBA8 /* EGConnectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBED1F54B2260090EBA8 /* EGConnectorCell.swift */; };
+		2DB1EC201F54B2260090EBA8 /* EGConnectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBEE1F54B2260090EBA8 /* EGConnectorCell.xib */; };
+		2DB1EC211F54B2260090EBA8 /* EGMapAnnotationLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBEF1F54B2260090EBA8 /* EGMapAnnotationLocation.swift */; };
+		2DB1EC221F54B2260090EBA8 /* EGMapLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF01F54B2260090EBA8 /* EGMapLocationView.swift */; };
+		2DB1EC231F54B2260090EBA8 /* EGMapLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF11F54B2260090EBA8 /* EGMapLocationView.xib */; };
+		2DB1EC241F54B2260090EBA8 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF21F54B2260090EBA8 /* MapView.xib */; };
+		2DB1EC251F54B2260090EBA8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF31F54B2260090EBA8 /* MapViewController.swift */; };
+		2DB1EC261F54B2260090EBA8 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF51F54B2260090EBA8 /* RegisterView.xib */; };
+		2DB1EC271F54B2260090EBA8 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF61F54B2260090EBA8 /* RegisterViewController.swift */; };
+		2DB1EC281F54B2260090EBA8 /* ResetPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF81F54B2260090EBA8 /* ResetPasswordView.xib */; };
+		2DB1EC291F54B2260090EBA8 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBF91F54B2260090EBA8 /* ResetPasswordViewController.swift */; };
+		2DB1EC2A1F54B2260090EBA8 /* AddFundsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBFC1F54B2260090EBA8 /* AddFundsView.xib */; };
+		2DB1EC2B1F54B2260090EBA8 /* AddFundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EBFD1F54B2260090EBA8 /* AddFundsViewController.swift */; };
+		2DB1EC2C1F54B2260090EBA8 /* ChargeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EBFF1F54B2260090EBA8 /* ChargeView.xib */; };
+		2DB1EC2D1F54B2260090EBA8 /* ChargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC001F54B2260090EBA8 /* ChargeViewController.swift */; };
+		2DB1EC2E1F54B2260090EBA8 /* EGRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EC011F54B2260090EBA8 /* EGRootView.xib */; };
+		2DB1EC2F1F54B2260090EBA8 /* EGRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC021F54B2260090EBA8 /* EGRootViewController.swift */; };
+		2DB1EC301F54B2260090EBA8 /* EGTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC041F54B2260090EBA8 /* EGTabBarViewController.swift */; };
+		2DB1EC311F54B2260090EBA8 /* SettingsCellCopyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC071F54B2260090EBA8 /* SettingsCellCopyright.swift */; };
+		2DB1EC321F54B2260090EBA8 /* SettingsCellCopyright.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EC081F54B2260090EBA8 /* SettingsCellCopyright.xib */; };
+		2DB1EC331F54B2260090EBA8 /* SettingsCellGenericText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC091F54B2260090EBA8 /* SettingsCellGenericText.swift */; };
+		2DB1EC341F54B2260090EBA8 /* SettingsCellGenericText.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EC0A1F54B2260090EBA8 /* SettingsCellGenericText.xib */; };
+		2DB1EC351F54B2260090EBA8 /* SettingsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC0B1F54B2260090EBA8 /* SettingsItem.swift */; };
+		2DB1EC361F54B2260090EBA8 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB1EC0C1F54B2260090EBA8 /* SettingsView.xib */; };
+		2DB1EC371F54B2260090EBA8 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC0D1F54B2260090EBA8 /* SettingsViewController.swift */; };
+		2DB1EC391F54B2B20090EBA8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1EC381F54B2B20090EBA8 /* Config.swift */; };
+		2DB1EC3C1F54BA470090EBA8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB1EC3B1F54BA470090EBA8 /* MapKit.framework */; };
 		2DEC6E821F2670CF006D4E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6E811F2670CF006D4E63 /* AppDelegate.swift */; };
 		2DEC6E891F2670CF006D4E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC6E881F2670CF006D4E63 /* Assets.xcassets */; };
 		2DEC6E971F26726B006D4E63 /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC6E951F26726B006D4E63 /* LaunchView.xib */; };
 		2DEC6E981F26726B006D4E63 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6E961F26726B006D4E63 /* LaunchViewController.swift */; };
 		2DEC6EA01F267801006D4E63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEC6E9F1F267801006D4E63 /* LaunchScreen.xib */; };
+		2DEC6EA61F267BDB006D4E63 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6EA21F267BDB006D4E63 /* AccountManager.swift */; };
+		2DEC6EA71F267BDB006D4E63 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6EA31F267BDB006D4E63 /* API.swift */; };
+		2DEC6EA81F267BDB006D4E63 /* JSONUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6EA41F267BDB006D4E63 /* JSONUtility.swift */; };
+		2DEC6EA91F267BDB006D4E63 /* RestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC6EA51F267BDB006D4E63 /* RestAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB1EBBB1F54B1640090EBA8 /* CollectionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionExtensions.swift; path = Extensions/CollectionExtensions.swift; sourceTree = "<group>"; };
+		2DB1EBBC1F54B1640090EBA8 /* DecimalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecimalExtensions.swift; path = Extensions/DecimalExtensions.swift; sourceTree = "<group>"; };
+		2DB1EBBD1F54B1640090EBA8 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Extensions/StringExtensions.swift; sourceTree = "<group>"; };
+		2DB1EBBE1F54B1640090EBA8 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Extensions/UIColorExtension.swift; sourceTree = "<group>"; };
+		2DB1EBBF1F54B1640090EBA8 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = Extensions/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		2DB1EBC71F54B1A20090EBA8 /* EGChargepoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGChargepoint.swift; path = Model/EGChargepoint.swift; sourceTree = "<group>"; };
+		2DB1EBC81F54B1A20090EBA8 /* EGConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGConnector.swift; path = Model/EGConnector.swift; sourceTree = "<group>"; };
+		2DB1EBC91F54B1A20090EBA8 /* EGLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGLocation.swift; path = Model/EGLocation.swift; sourceTree = "<group>"; };
+		2DB1EBCA1F54B1A20090EBA8 /* EGModelValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGModelValidation.swift; path = Model/EGModelValidation.swift; sourceTree = "<group>"; };
+		2DB1EBCB1F54B1A20090EBA8 /* EGTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGTransaction.swift; path = Model/EGTransaction.swift; sourceTree = "<group>"; };
+		2DB1EBCC1F54B1A20090EBA8 /* EGUserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EGUserData.swift; path = Model/EGUserData.swift; sourceTree = "<group>"; };
+		2DB1EBD31F54B1B80090EBA8 /* DTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DTButton.swift; path = Utilities/DTButton.swift; sourceTree = "<group>"; };
+		2DB1EBD61F54B2260090EBA8 /* AccountView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountView.xib; sourceTree = "<group>"; };
+		2DB1EBD71F54B2260090EBA8 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		2DB1EBD91F54B2260090EBA8 /* EGTransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGTransactionCell.swift; sourceTree = "<group>"; };
+		2DB1EBDA1F54B2260090EBA8 /* EGTransactionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGTransactionCell.xib; sourceTree = "<group>"; };
+		2DB1EBDC1F54B2260090EBA8 /* EGConnectorPickerChargePointCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGConnectorPickerChargePointCell.swift; sourceTree = "<group>"; };
+		2DB1EBDD1F54B2260090EBA8 /* EGConnectorPickerChargePointCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGConnectorPickerChargePointCell.xib; sourceTree = "<group>"; };
+		2DB1EBDE1F54B2260090EBA8 /* EGConnectorPickerConnectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGConnectorPickerConnectorCell.swift; sourceTree = "<group>"; };
+		2DB1EBDF1F54B2260090EBA8 /* EGConnectorPickerConnectorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGConnectorPickerConnectorCell.xib; sourceTree = "<group>"; };
+		2DB1EBE01F54B2260090EBA8 /* EGConnectorPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGConnectorPickerView.xib; sourceTree = "<group>"; };
+		2DB1EBE11F54B2260090EBA8 /* EGConnectorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGConnectorPickerViewController.swift; sourceTree = "<group>"; };
+		2DB1EBE31F54B2260090EBA8 /* HelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpView.xib; sourceTree = "<group>"; };
+		2DB1EBE41F54B2260090EBA8 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		2DB1EBE61F54B2260090EBA8 /* LoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		2DB1EBE71F54B2260090EBA8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2DB1EBE81F54B2260090EBA8 /* LoginViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerDelegate.swift; sourceTree = "<group>"; };
+		2DB1EBEA1F54B2260090EBA8 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		2DB1EBEB1F54B2260090EBA8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2DB1EBED1F54B2260090EBA8 /* EGConnectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGConnectorCell.swift; sourceTree = "<group>"; };
+		2DB1EBEE1F54B2260090EBA8 /* EGConnectorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGConnectorCell.xib; sourceTree = "<group>"; };
+		2DB1EBEF1F54B2260090EBA8 /* EGMapAnnotationLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGMapAnnotationLocation.swift; sourceTree = "<group>"; };
+		2DB1EBF01F54B2260090EBA8 /* EGMapLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGMapLocationView.swift; sourceTree = "<group>"; };
+		2DB1EBF11F54B2260090EBA8 /* EGMapLocationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGMapLocationView.xib; sourceTree = "<group>"; };
+		2DB1EBF21F54B2260090EBA8 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		2DB1EBF31F54B2260090EBA8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2DB1EBF51F54B2260090EBA8 /* RegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		2DB1EBF61F54B2260090EBA8 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2DB1EBF81F54B2260090EBA8 /* ResetPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResetPasswordView.xib; sourceTree = "<group>"; };
+		2DB1EBF91F54B2260090EBA8 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		2DB1EBFC1F54B2260090EBA8 /* AddFundsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddFundsView.xib; sourceTree = "<group>"; };
+		2DB1EBFD1F54B2260090EBA8 /* AddFundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFundsViewController.swift; sourceTree = "<group>"; };
+		2DB1EBFF1F54B2260090EBA8 /* ChargeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChargeView.xib; sourceTree = "<group>"; };
+		2DB1EC001F54B2260090EBA8 /* ChargeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeViewController.swift; sourceTree = "<group>"; };
+		2DB1EC011F54B2260090EBA8 /* EGRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGRootView.xib; sourceTree = "<group>"; };
+		2DB1EC021F54B2260090EBA8 /* EGRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGRootViewController.swift; sourceTree = "<group>"; };
+		2DB1EC041F54B2260090EBA8 /* EGTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EGTabBarViewController.swift; sourceTree = "<group>"; };
+		2DB1EC071F54B2260090EBA8 /* SettingsCellCopyright.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCellCopyright.swift; sourceTree = "<group>"; };
+		2DB1EC081F54B2260090EBA8 /* SettingsCellCopyright.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCellCopyright.xib; sourceTree = "<group>"; };
+		2DB1EC091F54B2260090EBA8 /* SettingsCellGenericText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsCellGenericText.swift; sourceTree = "<group>"; };
+		2DB1EC0A1F54B2260090EBA8 /* SettingsCellGenericText.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsCellGenericText.xib; sourceTree = "<group>"; };
+		2DB1EC0B1F54B2260090EBA8 /* SettingsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsItem.swift; sourceTree = "<group>"; };
+		2DB1EC0C1F54B2260090EBA8 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		2DB1EC0D1F54B2260090EBA8 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2DB1EC381F54B2B20090EBA8 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		2DB1EC3B1F54BA470090EBA8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2DEC6E7E1F2670CF006D4E63 /* EneGIVE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EneGIVE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEC6E811F2670CF006D4E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DEC6E881F2670CF006D4E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -22,6 +138,10 @@
 		2DEC6E951F26726B006D4E63 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchView.xib; path = "UI/Launch Screen/LaunchView.xib"; sourceTree = "<group>"; };
 		2DEC6E961F26726B006D4E63 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchViewController.swift; path = "UI/Launch Screen/LaunchViewController.swift"; sourceTree = "<group>"; };
 		2DEC6E9F1F267801006D4E63 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "UI/Launch Screen/LaunchScreen.xib"; sourceTree = "<group>"; };
+		2DEC6EA21F267BDB006D4E63 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AccountManager.swift; path = API/AccountManager.swift; sourceTree = "<group>"; };
+		2DEC6EA31F267BDB006D4E63 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = API.swift; path = API/API.swift; sourceTree = "<group>"; };
+		2DEC6EA41F267BDB006D4E63 /* JSONUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONUtility.swift; path = API/JSONUtility.swift; sourceTree = "<group>"; };
+		2DEC6EA51F267BDB006D4E63 /* RestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestAPI.swift; path = API/RestAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +149,222 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB1EC3C1F54BA470090EBA8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB1EBBA1F54B14C0090EBA8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBBB1F54B1640090EBA8 /* CollectionExtensions.swift */,
+				2DB1EBBC1F54B1640090EBA8 /* DecimalExtensions.swift */,
+				2DB1EBBD1F54B1640090EBA8 /* StringExtensions.swift */,
+				2DB1EBBE1F54B1640090EBA8 /* UIColorExtension.swift */,
+				2DB1EBBF1F54B1640090EBA8 /* UIViewControllerExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		2DB1EBC51F54B17C0090EBA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBCA1F54B1A20090EBA8 /* EGModelValidation.swift */,
+				2DB1EBCC1F54B1A20090EBA8 /* EGUserData.swift */,
+				2DB1EBCB1F54B1A20090EBA8 /* EGTransaction.swift */,
+				2DB1EBC91F54B1A20090EBA8 /* EGLocation.swift */,
+				2DB1EBC71F54B1A20090EBA8 /* EGChargepoint.swift */,
+				2DB1EBC81F54B1A20090EBA8 /* EGConnector.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2DB1EBC61F54B1870090EBA8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBD31F54B1B80090EBA8 /* DTButton.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2DB1EBD51F54B2260090EBA8 /* Account View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBD61F54B2260090EBA8 /* AccountView.xib */,
+				2DB1EBD71F54B2260090EBA8 /* AccountViewController.swift */,
+				2DB1EBD81F54B2260090EBA8 /* Cells */,
+			);
+			name = "Account View";
+			path = "UI/Account View";
+			sourceTree = "<group>";
+		};
+		2DB1EBD81F54B2260090EBA8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBDA1F54B2260090EBA8 /* EGTransactionCell.xib */,
+				2DB1EBD91F54B2260090EBA8 /* EGTransactionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2DB1EBDB1F54B2260090EBA8 /* Connector Picker View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBE01F54B2260090EBA8 /* EGConnectorPickerView.xib */,
+				2DB1EBE11F54B2260090EBA8 /* EGConnectorPickerViewController.swift */,
+				2DB1EBDF1F54B2260090EBA8 /* EGConnectorPickerConnectorCell.xib */,
+				2DB1EBDE1F54B2260090EBA8 /* EGConnectorPickerConnectorCell.swift */,
+				2DB1EBDD1F54B2260090EBA8 /* EGConnectorPickerChargePointCell.xib */,
+				2DB1EBDC1F54B2260090EBA8 /* EGConnectorPickerChargePointCell.swift */,
+			);
+			name = "Connector Picker View";
+			path = "UI/Connector Picker View";
+			sourceTree = "<group>";
+		};
+		2DB1EBE21F54B2260090EBA8 /* Help View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBE31F54B2260090EBA8 /* HelpView.xib */,
+				2DB1EBE41F54B2260090EBA8 /* HelpViewController.swift */,
+			);
+			name = "Help View";
+			path = "UI/Help View";
+			sourceTree = "<group>";
+		};
+		2DB1EBE51F54B2260090EBA8 /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBE61F54B2260090EBA8 /* LoginView.xib */,
+				2DB1EBE71F54B2260090EBA8 /* LoginViewController.swift */,
+				2DB1EBE81F54B2260090EBA8 /* LoginViewControllerDelegate.swift */,
+			);
+			name = "Login View";
+			path = "UI/Login View";
+			sourceTree = "<group>";
+		};
+		2DB1EBE91F54B2260090EBA8 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBEA1F54B2260090EBA8 /* MainView.xib */,
+				2DB1EBEB1F54B2260090EBA8 /* MainViewController.swift */,
+			);
+			name = "Main View";
+			path = "UI/Main View";
+			sourceTree = "<group>";
+		};
+		2DB1EBEC1F54B2260090EBA8 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBF21F54B2260090EBA8 /* MapView.xib */,
+				2DB1EBF31F54B2260090EBA8 /* MapViewController.swift */,
+				2DB1EBEF1F54B2260090EBA8 /* EGMapAnnotationLocation.swift */,
+				2DB1EBF11F54B2260090EBA8 /* EGMapLocationView.xib */,
+				2DB1EBF01F54B2260090EBA8 /* EGMapLocationView.swift */,
+				2DB1EBEE1F54B2260090EBA8 /* EGConnectorCell.xib */,
+				2DB1EBED1F54B2260090EBA8 /* EGConnectorCell.swift */,
+			);
+			name = "Map View";
+			path = "UI/Map View";
+			sourceTree = "<group>";
+		};
+		2DB1EBF41F54B2260090EBA8 /* Register View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBF51F54B2260090EBA8 /* RegisterView.xib */,
+				2DB1EBF61F54B2260090EBA8 /* RegisterViewController.swift */,
+			);
+			name = "Register View";
+			path = "UI/Register View";
+			sourceTree = "<group>";
+		};
+		2DB1EBF71F54B2260090EBA8 /* Reset Password View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBF81F54B2260090EBA8 /* ResetPasswordView.xib */,
+				2DB1EBF91F54B2260090EBA8 /* ResetPasswordViewController.swift */,
+			);
+			name = "Reset Password View";
+			path = "UI/Reset Password View";
+			sourceTree = "<group>";
+		};
+		2DB1EBFA1F54B2260090EBA8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EC011F54B2260090EBA8 /* EGRootView.xib */,
+				2DB1EC021F54B2260090EBA8 /* EGRootViewController.swift */,
+				2DB1EC031F54B2260090EBA8 /* Tab Bar */,
+				2DB1EBFE1F54B2260090EBA8 /* Charge */,
+				2DB1EBFB1F54B2260090EBA8 /* Add Funds View */,
+			);
+			name = Root;
+			path = UI/Root;
+			sourceTree = "<group>";
+		};
+		2DB1EBFB1F54B2260090EBA8 /* Add Funds View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBFC1F54B2260090EBA8 /* AddFundsView.xib */,
+				2DB1EBFD1F54B2260090EBA8 /* AddFundsViewController.swift */,
+			);
+			path = "Add Funds View";
+			sourceTree = "<group>";
+		};
+		2DB1EBFE1F54B2260090EBA8 /* Charge */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EBFF1F54B2260090EBA8 /* ChargeView.xib */,
+				2DB1EC001F54B2260090EBA8 /* ChargeViewController.swift */,
+			);
+			path = Charge;
+			sourceTree = "<group>";
+		};
+		2DB1EC031F54B2260090EBA8 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EC041F54B2260090EBA8 /* EGTabBarViewController.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		2DB1EC051F54B2260090EBA8 /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EC0C1F54B2260090EBA8 /* SettingsView.xib */,
+				2DB1EC0D1F54B2260090EBA8 /* SettingsViewController.swift */,
+				2DB1EC0B1F54B2260090EBA8 /* SettingsItem.swift */,
+				2DB1EC061F54B2260090EBA8 /* Cells */,
+			);
+			name = "Settings View";
+			path = "UI/Settings View";
+			sourceTree = "<group>";
+		};
+		2DB1EC061F54B2260090EBA8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EC0A1F54B2260090EBA8 /* SettingsCellGenericText.xib */,
+				2DB1EC091F54B2260090EBA8 /* SettingsCellGenericText.swift */,
+				2DB1EC081F54B2260090EBA8 /* SettingsCellCopyright.xib */,
+				2DB1EC071F54B2260090EBA8 /* SettingsCellCopyright.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2DB1EC3A1F54BA470090EBA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1EC3B1F54BA470090EBA8 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2DEC6E751F2670CF006D4E63 = {
 			isa = PBXGroup;
 			children = (
 				2DEC6E801F2670CF006D4E63 /* EneGIVE */,
 				2DEC6E7F1F2670CF006D4E63 /* Products */,
+				2DB1EC3A1F54BA470090EBA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,7 +380,12 @@
 			isa = PBXGroup;
 			children = (
 				2DEC6E811F2670CF006D4E63 /* AppDelegate.swift */,
+				2DB1EC381F54B2B20090EBA8 /* Config.swift */,
+				2DB1EBBA1F54B14C0090EBA8 /* Extensions */,
+				2DB1EBC61F54B1870090EBA8 /* Utilities */,
 				2DEC6E931F2671DB006D4E63 /* UI */,
+				2DEC6EA11F267BC6006D4E63 /* API */,
+				2DB1EBC51F54B17C0090EBA8 /* Model */,
 				2DEC6E881F2670CF006D4E63 /* Assets.xcassets */,
 				2DEC6E8D1F2670CF006D4E63 /* Info.plist */,
 			);
@@ -65,6 +395,16 @@
 		2DEC6E931F2671DB006D4E63 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				2DB1EBFA1F54B2260090EBA8 /* Root */,
+				2DB1EBE91F54B2260090EBA8 /* Main View */,
+				2DB1EBEC1F54B2260090EBA8 /* Map View */,
+				2DB1EBDB1F54B2260090EBA8 /* Connector Picker View */,
+				2DB1EBD51F54B2260090EBA8 /* Account View */,
+				2DB1EC051F54B2260090EBA8 /* Settings View */,
+				2DB1EBE51F54B2260090EBA8 /* Login View */,
+				2DB1EBF41F54B2260090EBA8 /* Register View */,
+				2DB1EBF71F54B2260090EBA8 /* Reset Password View */,
+				2DB1EBE21F54B2260090EBA8 /* Help View */,
 				2DEC6E941F2671F3006D4E63 /* Launch Screen */,
 			);
 			name = UI;
@@ -73,11 +413,22 @@
 		2DEC6E941F2671F3006D4E63 /* Launch Screen */ = {
 			isa = PBXGroup;
 			children = (
-				2DEC6E9F1F267801006D4E63 /* LaunchScreen.xib */,
 				2DEC6E951F26726B006D4E63 /* LaunchView.xib */,
 				2DEC6E961F26726B006D4E63 /* LaunchViewController.swift */,
+				2DEC6E9F1F267801006D4E63 /* LaunchScreen.xib */,
 			);
 			name = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		2DEC6EA11F267BC6006D4E63 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2DEC6EA31F267BDB006D4E63 /* API.swift */,
+				2DEC6EA21F267BDB006D4E63 /* AccountManager.swift */,
+				2DEC6EA51F267BDB006D4E63 /* RestAPI.swift */,
+				2DEC6EA41F267BDB006D4E63 /* JSONUtility.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +491,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB1EC341F54B2260090EBA8 /* SettingsCellGenericText.xib in Resources */,
+				2DB1EC2C1F54B2260090EBA8 /* ChargeView.xib in Resources */,
+				2DB1EC2E1F54B2260090EBA8 /* EGRootView.xib in Resources */,
+				2DB1EC111F54B2260090EBA8 /* EGTransactionCell.xib in Resources */,
+				2DB1EC261F54B2260090EBA8 /* RegisterView.xib in Resources */,
+				2DB1EC0E1F54B2260090EBA8 /* AccountView.xib in Resources */,
+				2DB1EC161F54B2260090EBA8 /* EGConnectorPickerView.xib in Resources */,
+				2DB1EC361F54B2260090EBA8 /* SettingsView.xib in Resources */,
+				2DB1EC151F54B2260090EBA8 /* EGConnectorPickerConnectorCell.xib in Resources */,
+				2DB1EC131F54B2260090EBA8 /* EGConnectorPickerChargePointCell.xib in Resources */,
+				2DB1EC181F54B2260090EBA8 /* HelpView.xib in Resources */,
+				2DB1EC281F54B2260090EBA8 /* ResetPasswordView.xib in Resources */,
 				2DEC6E971F26726B006D4E63 /* LaunchView.xib in Resources */,
+				2DB1EC231F54B2260090EBA8 /* EGMapLocationView.xib in Resources */,
+				2DB1EC321F54B2260090EBA8 /* SettingsCellCopyright.xib in Resources */,
+				2DB1EC201F54B2260090EBA8 /* EGConnectorCell.xib in Resources */,
 				2DEC6EA01F267801006D4E63 /* LaunchScreen.xib in Resources */,
+				2DB1EC1A1F54B2260090EBA8 /* LoginView.xib in Resources */,
 				2DEC6E891F2670CF006D4E63 /* Assets.xcassets in Resources */,
+				2DB1EC1D1F54B2260090EBA8 /* MainView.xib in Resources */,
+				2DB1EC2A1F54B2260090EBA8 /* AddFundsView.xib in Resources */,
+				2DB1EC241F54B2260090EBA8 /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +523,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB1EC251F54B2260090EBA8 /* MapViewController.swift in Sources */,
+				2DB1EC2D1F54B2260090EBA8 /* ChargeViewController.swift in Sources */,
+				2DB1EC311F54B2260090EBA8 /* SettingsCellCopyright.swift in Sources */,
+				2DB1EC101F54B2260090EBA8 /* EGTransactionCell.swift in Sources */,
+				2DB1EBD11F54B1A20090EBA8 /* EGTransaction.swift in Sources */,
+				2DB1EC291F54B2260090EBA8 /* ResetPasswordViewController.swift in Sources */,
+				2DB1EBCF1F54B1A20090EBA8 /* EGLocation.swift in Sources */,
+				2DB1EC371F54B2260090EBA8 /* SettingsViewController.swift in Sources */,
+				2DB1EC141F54B2260090EBA8 /* EGConnectorPickerConnectorCell.swift in Sources */,
+				2DB1EC121F54B2260090EBA8 /* EGConnectorPickerChargePointCell.swift in Sources */,
+				2DEC6EA91F267BDB006D4E63 /* RestAPI.swift in Sources */,
+				2DB1EBC41F54B1640090EBA8 /* UIViewControllerExtensions.swift in Sources */,
+				2DB1EC331F54B2260090EBA8 /* SettingsCellGenericText.swift in Sources */,
+				2DB1EBC11F54B1640090EBA8 /* DecimalExtensions.swift in Sources */,
+				2DB1EBD41F54B1B80090EBA8 /* DTButton.swift in Sources */,
+				2DB1EBC01F54B1640090EBA8 /* CollectionExtensions.swift in Sources */,
+				2DB1EBC21F54B1640090EBA8 /* StringExtensions.swift in Sources */,
+				2DB1EC391F54B2B20090EBA8 /* Config.swift in Sources */,
 				2DEC6E821F2670CF006D4E63 /* AppDelegate.swift in Sources */,
+				2DB1EBCD1F54B1A20090EBA8 /* EGChargepoint.swift in Sources */,
+				2DB1EC1B1F54B2260090EBA8 /* LoginViewController.swift in Sources */,
 				2DEC6E981F26726B006D4E63 /* LaunchViewController.swift in Sources */,
+				2DB1EC301F54B2260090EBA8 /* EGTabBarViewController.swift in Sources */,
+				2DB1EC211F54B2260090EBA8 /* EGMapAnnotationLocation.swift in Sources */,
+				2DEC6EA81F267BDB006D4E63 /* JSONUtility.swift in Sources */,
+				2DB1EC2B1F54B2260090EBA8 /* AddFundsViewController.swift in Sources */,
+				2DB1EC171F54B2260090EBA8 /* EGConnectorPickerViewController.swift in Sources */,
+				2DB1EC221F54B2260090EBA8 /* EGMapLocationView.swift in Sources */,
+				2DB1EC0F1F54B2260090EBA8 /* AccountViewController.swift in Sources */,
+				2DB1EBC31F54B1640090EBA8 /* UIColorExtension.swift in Sources */,
+				2DEC6EA71F267BDB006D4E63 /* API.swift in Sources */,
+				2DB1EC351F54B2260090EBA8 /* SettingsItem.swift in Sources */,
+				2DB1EC191F54B2260090EBA8 /* HelpViewController.swift in Sources */,
+				2DB1EC1C1F54B2260090EBA8 /* LoginViewControllerDelegate.swift in Sources */,
+				2DB1EC2F1F54B2260090EBA8 /* EGRootViewController.swift in Sources */,
+				2DB1EBCE1F54B1A20090EBA8 /* EGConnector.swift in Sources */,
+				2DB1EC1F1F54B2260090EBA8 /* EGConnectorCell.swift in Sources */,
+				2DB1EC271F54B2260090EBA8 /* RegisterViewController.swift in Sources */,
+				2DEC6EA61F267BDB006D4E63 /* AccountManager.swift in Sources */,
+				2DB1EC1E1F54B2260090EBA8 /* MainViewController.swift in Sources */,
+				2DB1EBD21F54B1A20090EBA8 /* EGUserData.swift in Sources */,
+				2DB1EBD01F54B1A20090EBA8 /* EGModelValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

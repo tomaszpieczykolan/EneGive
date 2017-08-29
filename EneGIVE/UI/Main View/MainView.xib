@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="EneGIVE" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="UfG-eA-zOl"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="00i-5k-5i5">
+                    <rect key="frame" x="67.5" y="206.5" width="240" height="204"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkq-Z6-zPc" customClass="DTButton" customModule="EneGIVE" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="240" height="36"/>
+                            <color key="backgroundColor" red="0.50588235290000005" green="0.99607843139999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                            <state key="normal" title="Nearest charger"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRx-v0-fyF" customClass="DTButton" customModule="EneGIVE" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="56" width="240" height="36"/>
+                            <color key="backgroundColor" red="0.50588235290000005" green="0.99607843139999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                            <state key="normal" title="Search on map"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gfk-0M-79N" customClass="DTButton" customModule="EneGIVE" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="112" width="240" height="36"/>
+                            <color key="backgroundColor" red="0.50588235290000005" green="0.99607843139999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                            <state key="normal" title="My transactions"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89y-cs-Lnv" customClass="DTButton" customModule="EneGIVE" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="168" width="240" height="36"/>
+                            <color key="backgroundColor" red="0.50588235290000005" green="0.99607843139999996" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                            <state key="normal" title="Account settings"/>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="N7r-VP-fMu"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="00i-5k-5i5" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-25" id="4rF-S8-OSx"/>
+                <constraint firstItem="00i-5k-5i5" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="QpB-OM-JWX"/>
+                <constraint firstItem="00i-5k-5i5" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mSc-jo-1rv"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="f9s-Ae-6YQ">
+            <connections>
+                <action selector="chargeLimitPan:" destination="-1" id="3tF-tt-8va"/>
+            </connections>
+        </panGestureRecognizer>
+    </objects>
+</document>
